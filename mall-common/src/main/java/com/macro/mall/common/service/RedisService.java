@@ -28,7 +28,7 @@ public interface RedisService {
     /**
      * 删除属性
      */
-    Boolean del(String key);
+    void del(String key);
 
     /**
      * 批量删除属性

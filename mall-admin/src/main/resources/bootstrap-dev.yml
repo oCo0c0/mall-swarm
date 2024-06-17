@@ -2,7 +2,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: http://localhost:8848
+        server-addr: 123.60.142.203:8848
+        namespace: 4718f507-886e-4404-9c52-f08f714aaf9b
       config:
-        server-addr: http://localhost:8848
+        server-addr: 123.60.142.203:8848
+        namespace: 4718f507-886e-4404-9c52-f08f714aaf9b
         file-extension: yaml
